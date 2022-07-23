@@ -1,5 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const { fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
   content: ["./src/**/*.{ts,tsx}"],
@@ -7,6 +6,7 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: "'Inter', sans-serif",
+        secondary: "'Comfortaa', sans-serif",
       },
     },
     plugins: [],

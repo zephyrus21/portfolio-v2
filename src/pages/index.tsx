@@ -1,15 +1,14 @@
 import type { NextPage } from "next";
-import Starter from "@components/Starter";
 import Head from "next/head";
+import NavBar from "@components/NavBar";
 
 const Home: NextPage = () => {
   return (
-    <div className='flex flex-col justify-center items-center min-h-screen font-primary'>
-      {/* Delete the Starter Component and remove <Starter /> to get started! */}
+    <div className='flex flex-col items-center min-h-screen font-primary'>
       <Head>
-        <title>Next.js, TypeScript, Tailwind Starter Template</title>
+        <title>Piyush Pandey | v2</title>
       </Head>
-      <Starter />
+      <NavBar />
     </div>
   );
 };

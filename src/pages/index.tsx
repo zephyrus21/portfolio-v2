@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import NavBar from "@components/NavBar";
+import Footer from "@components/Footer";
 
 const Home: NextPage = () => {
   return (
@@ -9,6 +10,7 @@ const Home: NextPage = () => {
         <title>Piyush Pandey | v2</title>
       </Head>
       <NavBar />
+      <Footer />
     </div>
   );
 };

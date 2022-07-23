@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
+import Header from "@components/Header";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +11,7 @@ const Home: NextPage = () => {
         <title>Piyush Pandey | v2</title>
       </Head>
       <NavBar />
+      <Header />
       <Footer />
     </div>
   );

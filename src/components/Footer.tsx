@@ -4,9 +4,9 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer: NextPage = () => {
   return (
-    <footer className='bg-black absolute bottom-0 w-full text-white px-24 py-16 flex justify-between font-secondary'>
+    <footer className='bg-black absolute bottom-0 w-full text-white px-24 py-8 md:py-16 flex flex-col md:flex-row items-center gap-8 justify-between font-secondary'>
       <Link href={"/"}>
-        <p className='flex flex-col font-bold text-2xl'>piyush</p>
+        <p className='font-bold text-2xl'>piyush</p>
       </Link>
       <div className='flex gap-6'>
         <a

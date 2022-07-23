@@ -5,8 +5,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: "'Inter', sans-serif",
+        primary: "'Montserrat', sans-serif",
         secondary: "'Comfortaa', sans-serif",
+      },
+      screens: {
+        sm: "540px",
       },
     },
     plugins: [],

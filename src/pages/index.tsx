@@ -15,7 +15,7 @@ const Home: NextPage = () => {
       <NavBar />
       <Header />
       <Photo />
-      <Blog />
+      {/* <Blog /> */}
       <Footer />
     </div>
   );

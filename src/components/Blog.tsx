@@ -1,7 +1,27 @@
 import { NextPage } from "next";
+import Image from "next/image";
 
 const Blog: NextPage = () => {
-  return <div className='h-screen w-full'>Blogs</div>;
+  return (
+    <>
+      <div className='w-full flex items-center justify-around m-20'>
+        <div className='w-1/2'></div>
+        <Image
+          className='w-1/2'
+          src='/mac.jpeg'
+          alt='mac'
+          height={"640px"}
+          width={"400px"}
+        />
+        {/* <Image src='/leaf.jpeg' alt='leaf' height={"640px"} width={"400px"} /> */}
+      </div>
+      <div className='w-full flex items-center justify-around m-20'>
+        {/* <Image src='/mac.jpeg' alt='mac' height={"640px"} width={"400px"} /> */}
+        <Image src='/leaf.jpeg' alt='leaf' height={"640px"} width={"400px"} />
+        <div className='w-1/2'></div>
+      </div>
+    </>
+  );
 };
 
 export default Blog;

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const NavBar: NextPage = () => {
   return (
-    <div className='flex w-full justify-between items-center h-20 px-8 md:px-24 fixed bg-white z-10'>
+    <div className='fixed flex w-full justify-between items-center h-20 px-8 md:px-24 bg-white z-10'>
       <Link href={"/"}>
         <p className='font-bold text-2xl font-secondary'>piyush</p>
       </Link>

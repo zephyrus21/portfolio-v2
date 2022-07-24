@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header: NextPage = () => {
   return (
-    <div className='m-auto flex flex-col justify-center items-center h-full gap-4 mt-36'>
+    <div className='m-auto flex flex-col justify-center items-center h-screen gap-4'>
       <Image src='/apple_me.png' alt='me' height={120} width={100} />
       <div className='sm:text-6xl text-4xl font-medium'>Piyush Pandey</div>
       <div className='text-neutral-500 font-medium sm:text-3xl text-2xl'>

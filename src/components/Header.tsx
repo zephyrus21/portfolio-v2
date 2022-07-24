@@ -26,19 +26,19 @@ const Header: NextPage = () => {
           href='https://github.com/zephyrus21'
           className='flex items-center gap-2 font-medium text-sm '>
           <FaGithub size={24} />
-          GitHub
+          <span className='hidden sm:block'>GitHub</span>
         </a>
         <a
           href='https://twitter.com/zephyrus_io'
           className='flex items-center gap-2 font-medium text-sm'>
           <FaTwitter size={24} />
-          Twitter
+          <span className='hidden sm:block'>Twitter</span>
         </a>
         <a
           href='https://linkedin.com/in/zephyrus21'
           className='flex items-center gap-2 font-medium text-sm'>
           <FaLinkedin size={24} />
-          LinkedIn
+          <span className='hidden sm:block'>LinkedIn</span>
         </a>
       </div>
     </div>

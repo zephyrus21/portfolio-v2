@@ -8,7 +8,7 @@ import Blog from "@components/Blog";
 
 const Home: NextPage = () => {
   return (
-    <div className='flex flex-col items-center min-h-screen font-primary'>
+    <div className='flex flex-col items-center min-h-screen font-primary scroll-smooth'>
       <Head>
         <title>Piyush Pandey | v2</title>
       </Head>

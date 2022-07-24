@@ -1,5 +1,6 @@
 import { NextPage } from "next";
 import Image from "next/image";
+import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Header: NextPage = () => {
   return (
@@ -19,6 +20,26 @@ const Header: NextPage = () => {
           Currently I am exploring BlockChian Development with Ethereum,
           Solidity, Ethers.js and more.
         </p>
+      </div>
+      <div className='flex gap-10 mt-8'>
+        <a
+          href='https://github.com/zephyrus21'
+          className='flex items-center gap-2 font-medium text-sm '>
+          <FaGithub size={24} />
+          GitHub
+        </a>
+        <a
+          href='https://twitter.com/zephyrus_io'
+          className='flex items-center gap-2 font-medium text-sm'>
+          <FaTwitter size={24} />
+          Twitter
+        </a>
+        <a
+          href='https://linkedin.com/in/zephyrus21'
+          className='flex items-center gap-2 font-medium text-sm'>
+          <FaLinkedin size={24} />
+          LinkedIn
+        </a>
       </div>
     </div>
   );

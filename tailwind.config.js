@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
+  darkMode: "class",
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     extend: {
@@ -9,7 +10,7 @@ module.exports = {
         secondary: "'Comfortaa', sans-serif",
       },
       backgroundImage: {
-        me_1: `url('/me_1.jpeg')`,
+        me_1: `url('/me_1a.jpeg')`,
         mac: `url('/mac.jpeg')`,
         leaf: `url('/leaf.jpeg')`,
       },

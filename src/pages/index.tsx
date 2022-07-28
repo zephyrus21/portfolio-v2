@@ -4,7 +4,6 @@ import NavBar from "@components/NavBar";
 import Footer from "@components/Footer";
 import Header from "@components/Header";
 import Photo from "@components/Photo";
-import Blog from "@components/Blog";
 
 const Home: NextPage = () => {
   return (

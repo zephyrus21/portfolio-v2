@@ -10,8 +10,8 @@ const Blog: NextPage = () => {
           className='w-1/2 grayscale hover:grayscale-0 transition-all duration-500'
           src='/mac.jpeg'
           alt='mac'
-          height={'640px'}
-          width={'400px'}
+          height={640}
+          width={400}
         />
         {/* <Image src='/leaf.jpeg' alt='leaf' height={"640px"} width={"400px"} /> */}
       </div>
@@ -21,8 +21,8 @@ const Blog: NextPage = () => {
           className='w-1/2 grayscale hover:grayscale-0 transition-all duration-500'
           src='/leaf.jpeg'
           alt='leaf'
-          height={'640px'}
-          width={'400px'}
+          height={640}
+          width={400}
         />
         <div className='w-1/2'></div>
       </div>

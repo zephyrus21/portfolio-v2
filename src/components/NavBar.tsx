@@ -1,27 +1,27 @@
-import { NextPage } from "next";
-import { useTheme } from "next-themes";
-import Link from "next/link";
-import { FaMoon, FaSun } from "react-icons/fa";
+import { NextPage } from 'next';
+import { useTheme } from 'next-themes';
+import Link from 'next/link';
+import { FaMoon, FaSun } from 'react-icons/fa';
 
 const NavBar: NextPage = () => {
   const { systemTheme, theme, setTheme } = useTheme();
 
   const renderThemeChanger = () => {
-    const currentTheme = theme === "system" ? systemTheme : theme;
+    const currentTheme = theme === 'system' ? systemTheme : theme;
 
-    if (currentTheme === "dark") {
+    if (currentTheme === 'dark') {
       return (
-        <FaSun size={22} cursor='pointer' onClick={() => setTheme("light")} />
+        <FaSun size={22} cursor='pointer' onClick={() => setTheme('light')} />
       );
     } else {
       return (
-        <FaMoon size={22} cursor='pointer' onClick={() => setTheme("dark")} />
+        <FaMoon size={22} cursor='pointer' onClick={() => setTheme('dark')} />
       );
     }
   };
   return (
     <div className='fixed flex w-full justify-between items-center h-20 px-8 md:px-24 bg-white dark:bg-black z-10'>
-      <Link href={"/"}>
+      <Link href={'/'}>
         <p className='font-bold text-2xl font-secondary dark:text-white'>
           piyush
         </p>

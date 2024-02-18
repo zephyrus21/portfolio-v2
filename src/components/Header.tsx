@@ -1,6 +1,6 @@
-import { NextPage } from "next";
-import Image from "next/image";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { NextPage } from 'next';
+import Image from 'next/image';
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Header: NextPage = () => {
   return (
@@ -8,17 +8,20 @@ const Header: NextPage = () => {
       <Image src='/apple_me.png' alt='me' height={120} width={100} />
       <div className='sm:text-6xl text-4xl font-medium'>Piyush Pandey</div>
       <div className='text-neutral-500 dark:text-neutral-400 font-medium sm:text-3xl text-2xl'>
-        Full Stack Developer
+        Software Engineer
       </div>
       <div className='text-center dark:text-neutral-500 text-neutral-700 sm:text-lg font-medium max-w-[48rem] px-4 flex flex-col gap-4 mt-8'>
-        <p>
-          I{"'"}m a Student and a passionate Full Stack Developer with
-          experience in React.js, Next.js, Node.js, GraphQL and TypeScript to
-          name a few.
+        <p className='sm:text-xl mb-6'>
+          I{"'"}m from India having proficiency in Golang and Typescript.
+          Currently I am working at Mable as a Software Engineer.
         </p>
         <p>
-          Currently I am exploring BlockChian Development with Ethereum,
-          Solidity, Ethers.js and more.
+          A big fan of open source and love to contribute to open source
+          projects. I have a passion for building scalable and maintainable
+          software with a good understanding of cloud technologies and have
+          experience in building and deploying scalable applications on AWS and
+          GCP, I have a good understanding of microservices architecture and
+          distributed systems.
         </p>
       </div>
       <div className='flex gap-10 mt-8'>
